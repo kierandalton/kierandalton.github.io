@@ -51,7 +51,8 @@ linkedin_url: https://www.linkedin.com/in/kieran-dalton/
 github_url: https://github.com/kierandalton/
 
 # Google Analytics Tracking ID goes here:
-google_analytics:
+google_analytics: UA-125815803-1
+
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
