@@ -8,6 +8,8 @@ order: 3
 
 As an avid reader, I use this space to keep track of the books I've read, and to provide recommendations to people in similar positions.
 
+Please see my [Goodreads](https://www.goodreads.com/kierandalton) for more information.
+
 1. Frank Close: *Particle Physics: A Very Short Introduction*
 2. Richard Feynman: *QED*
 3. Brian Greene: *The Elegant Universe*
@@ -34,5 +36,7 @@ As an avid reader, I use this space to keep track of the books I've read, and to
 24. Richard Feynman: *Surely You're Joking Mr Feynman*
 25. Neil Turok: *The Universe Within*
 26. Scott Aaronson: *Quantum Computing Since Democritus*
+27. J.E. Gordon: *The New Science of Strong Materials*
+
 
 
