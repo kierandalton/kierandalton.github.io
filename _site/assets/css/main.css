@@ -2275,7 +2275,7 @@ input, select, textarea {
 
 	#work {
 		background: url("../../images/work.JPG");
-		background-size: 1500px 800px, cover;
+		background-size: 100% 100%, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2287,7 +2287,7 @@ input, select, textarea {
 		padding-bottom: 0;
 
 		background: url("../../images/contact.JPG");
-		background-size: 1500px 800px, cover;
+		background-size: 100% 100%, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
