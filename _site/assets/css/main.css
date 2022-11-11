@@ -2280,6 +2280,15 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+/* publications */
+
+	#publications {
+		background: url("../../images/work.JPG");
+		background-size: 100% 100%, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
 /* Contact */
 
 	#contact {
