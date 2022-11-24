@@ -1,3 +1,1 @@
-1. New 'About Me'
-2. Updated detail cards (remove school, add university work)
-3. Update CV
+1. Update CV
