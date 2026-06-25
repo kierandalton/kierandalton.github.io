@@ -4,10 +4,23 @@
 
 {% block content %}
 <section class="main style3 primary">
-	<div class="content box style2">
+	<div class="content box style2" style="text-align: left;">
 		<header>
 			<h2>Blog</h2>
 		</header>
+		
+		<div class="favourite-blogs" style="margin-bottom: 2.5em; padding-bottom: 1.5em; border-bottom: 2px solid rgba(0,0,0,0.1);">
+			<h4 style="font-size: 0.85em; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75em; opacity: 0.6; font-weight: 900;">Favorite Blogs &amp; Sites</h4>
+			<ul style="list-style-type: none; padding-left: 0; display: flex; flex-wrap: wrap; gap: 0.75em 1.25em; font-size: 0.9em;">
+				<li><a href="https://marginalrevolution.com/" target="_blank" rel="noopener" style="text-decoration: none; border-bottom: none; font-weight: bold;">Marginal Revolution</a></li>
+				<li><a href="https://www.astralcodexten.com/" target="_blank" rel="noopener" style="text-decoration: none; border-bottom: none; font-weight: bold;">Astral Codex Ten</a></li>
+				<li><a href="https://www.noahpinion.blog/" target="_blank" rel="noopener" style="text-decoration: none; border-bottom: none; font-weight: bold;">Noahpinion</a></li>
+				<li><a href="https://constructionphysics.substack.com/" target="_blank" rel="noopener" style="text-decoration: none; border-bottom: none; font-weight: bold;">Construction Physics</a></li>
+				<li><a href="https://www.ft.com/alphaville" target="_blank" rel="noopener" style="text-decoration: none; border-bottom: none; font-weight: bold;">FT Alphaville</a></li>
+				<li><a href="https://www.quantamagazine.org/" target="_blank" rel="noopener" style="text-decoration: none; border-bottom: none; font-weight: bold;">Quanta Magazine</a></li>
+				<li><a href="https://www.theintrinsicperspective.com/" target="_blank" rel="noopener" style="text-decoration: none; border-bottom: none; font-weight: bold;">Erik Hoel</a></li>
+			</ul>
+		</div>
 		
 		{% if articles %}
 			<ul class="blog-list" style="list-style-type: none; padding-left: 0;">
@@ -19,12 +32,18 @@
 						<p class="blog-meta" style="font-size: 0.9em; opacity: 0.6; margin-bottom: 1em;">
 							Published on {{ article.locale_date }} {% if article.category %} in <em>{{ article.category }}</em>{% endif %}
 						</p>
-						<div class="blog-summary" style="line-height: 1.6; margin-bottom: 1.5em;">
-							{{ article.summary }}
-						</div>
-						<p>
-							<a href="{{ SITEURL }}/{{ article.url }}" class="button small">Read More</a>
-						</p>
+						{% if article.text|length < 1000 %}
+							<div class="blog-content" style="line-height: 1.6; margin-bottom: 1.5em;">
+								{{ article.content }}
+							</div>
+						{% else %}
+							<div class="blog-summary" style="line-height: 1.6; margin-bottom: 1.5em;">
+								{{ article.summary }}
+							</div>
+							<p>
+								<a href="{{ SITEURL }}/{{ article.url }}" class="button small">Read More</a>
+							</p>
+						{% endif %}
 					</li>
 				{% endfor %}
 			</ul>
