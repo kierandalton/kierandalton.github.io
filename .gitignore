@@ -1,0 +1,15 @@
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Pelican build output
+output/
+cache/
+
+# uv specific files
+.uv/
+
+# OS specific files
+.DS_Store
+Thumbs.db

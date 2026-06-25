@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Blog | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="main style3 primary">
+	<div class="content box style2">
+		<header>
+			<h2>Blog</h2>
+		</header>
+		
+		{% if articles %}
+			<ul class="blog-list" style="list-style-type: none; padding-left: 0;">
+				{% for article in articles %}
+					<li class="blog-item" style="margin-bottom: 3em; border-bottom: 1px solid rgba(0,0,0,0.1); padding-bottom: 2em;">
+						<h3 style="margin-bottom: 0.5em; font-size: 1.5em; font-weight: 900;">
+							<a href="{{ SITEURL }}/{{ article.url }}" style="text-decoration: none; border-bottom: none; color: inherit;">{{ article.title }}</a>
+						</h3>
+						<p class="blog-meta" style="font-size: 0.9em; opacity: 0.6; margin-bottom: 1em;">
+							Published on {{ article.locale_date }} {% if article.category %} in <em>{{ article.category }}</em>{% endif %}
+						</p>
+						<div class="blog-summary" style="line-height: 1.6; margin-bottom: 1.5em;">
+							{{ article.summary }}
+						</div>
+						<p>
+							<a href="{{ SITEURL }}/{{ article.url }}" class="button small">Read More</a>
+						</p>
+					</li>
+				{% endfor %}
+			</ul>
+		{% else %}
+			<p>No blog posts found. Stay tuned!</p>
+		{% endif %}
+	</div>
+</section>
+{% endblock %}
