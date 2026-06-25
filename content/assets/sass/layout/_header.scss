@@ -59,16 +59,16 @@
 		}
 
 		@include breakpoint('<=small') {
-			height: 2.5em;
-			line-height: 2.5em;
+			height: 4.4em;
+			line-height: 2.2em;
 
 			h1 {
 				text-align: center;
 				position: relative;
 				left: 0;
 				top: 0;
-				height: 2.5em;
-				line-height: 2.5em;
+				height: 2.2em;
+				line-height: 2.2em;
 
 				a {
 					font-size: 1em;
@@ -76,7 +76,31 @@
 			}
 
 			nav {
-				display: none;
+				display: block;
+				position: relative;
+				right: auto;
+				top: auto;
+				height: 2.2em;
+				line-height: 2.2em;
+				text-align: center;
+
+				ul {
+					margin: 0;
+					padding: 0;
+
+					li {
+						display: inline-block;
+						margin: 0 0.15em;
+						font-size: 0.75em;
+
+						a {
+							display: block;
+							height: 2.2em;
+							line-height: 2.2em;
+							padding: 0 0.3em;
+						}
+					}
+				}
 			}
 		}
 	}
@@ -85,6 +109,6 @@
 		padding-top: 3em;
 
 		@include breakpoint('<=small') {
-			padding-top: 2.5em;
+			padding-top: 4.4em;
 		}
 	}

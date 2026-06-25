@@ -1884,8 +1884,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.5em;
-				line-height: 2.5em;
+				height: 4.4em;
+				line-height: 2.2em;
 			}
 
 				#header h1 {
@@ -1893,8 +1893,8 @@ input, select, textarea {
 					position: relative;
 					left: 0;
 					top: 0;
-					height: 2.5em;
-					line-height: 2.5em;
+					height: 2.2em;
+					line-height: 2.2em;
 				}
 
 					#header h1 a {
@@ -1902,8 +1902,32 @@ input, select, textarea {
 					}
 
 				#header nav {
-					display: none;
+					display: block;
+					position: relative;
+					right: auto;
+					top: auto;
+					height: 2.2em;
+					line-height: 2.2em;
+					text-align: center;
 				}
+
+					#header nav ul {
+						margin: 0;
+						padding: 0;
+					}
+
+						#header nav ul li {
+							display: inline-block;
+							margin: 0 0.15em;
+							font-size: 0.75em;
+						}
+
+							#header nav ul li a {
+								display: block;
+								height: 2.2em;
+								line-height: 2.2em;
+								padding: 0 0.3em;
+							}
 
 		}
 
@@ -1914,7 +1938,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body {
-				padding-top: 2.5em;
+				padding-top: 4.4em;
 			}
 
 		}
@@ -2043,6 +2067,24 @@ input, select, textarea {
 			.main.style3 .content > header {
 				margin-bottom: 2em;
 			}
+
+			.main.style3 .talks-section {
+				text-align: left;
+				margin-top: 3em;
+			}
+
+				.main.style3 .talks-section header {
+					text-align: center;
+				}
+
+				.main.style3 .talks-section ul {
+					list-style: none;
+					padding-left: 0;
+				}
+
+					.main.style3 .talks-section ul li {
+						margin-bottom: 1.5em;
+					}
 
 			.main.style3.primary {
 				background: #ffffff;
