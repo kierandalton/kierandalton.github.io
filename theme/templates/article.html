@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="main style3 primary">
+	<div class="content box style2">
+		<header>
+			<h2>{{ article.title }}</h2>
+			<p style="font-size: 0.9em; opacity: 0.6; margin-bottom: 2em; margin-top: -0.5em;">
+				Published on {{ article.locale_date }} {% if article.category %} in <em>{{ article.category }}</em>{% endif %}
+			</p>
+		</header>
+		
+		<article class="blog-post-content" style="line-height: 1.6; margin-bottom: 2em;">
+			{{ article.content }}
+		</article>
+
+		<footer style="margin-top: 3em; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 1.5em;">
+			<a href="{{ SITEURL }}/blog.html" class="button">Back to Blog</a>
+		</footer>
+	</div>
+</section>
+{% endblock %}

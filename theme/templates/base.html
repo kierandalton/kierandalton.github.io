@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ SITEURL }}/assets/css/main.css" />
+		<link rel="stylesheet" href="{{ SITEURL }}/assets/css/academicons.min.css"/>
+		<noscript><link rel="stylesheet" href="{{ SITEURL }}/assets/css/noscript.css" /></noscript>
+		{% block head %}{% endblock %}
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="{{ SITEURL }}/index.html">Kieran Dalton</a></h1>
+				<nav>
+					<ul>
+						{% if output_file == 'index.html' %}
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">About Me</a></li>
+						<li><a href="#two">CV</a></li>
+						<li><a href="#publications">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+						{% else %}
+						<li><a href="{{ SITEURL }}/index.html#intro">Intro</a></li>
+						<li><a href="{{ SITEURL }}/index.html#one">About Me</a></li>
+						<li><a href="{{ SITEURL }}/index.html#two">CV</a></li>
+						<li><a href="{{ SITEURL }}/index.html#publications">My Work</a></li>
+						<li><a href="{{ SITEURL }}/index.html#contact">Contact</a></li>
+						{% endif %}
+						<li><a href="{{ SITEURL }}/blog.html" {% if output_file == 'blog.html' or output_file.startswith('blog/') %}style="font-weight: bold; text-decoration: underline;"{% endif %}>Blog</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		{% block content %}{% endblock %}
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/kieran.dalton.9480" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/kierandalton/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/kieran-dalton/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://scholar.google.com/citations?hl=en&user=h3BItSYAAAAJ" class="ai ai-google-scholar-square"></a></li>
+						<li><a href="https://arxiv.org/search/quant-ph?searchtype=author&query=Dalton%2C+K" class="ai ai-arxiv-square"></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Kieran Dalton, 2026</li><li>Design based on: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{{ SITEURL }}/assets/js/jquery.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/jquery.poptrox.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/jquery.scrolly.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/jquery.scrollex.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/browser.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/breakpoints.min.js"></script>
+			<script src="{{ SITEURL }}/assets/js/util.js"></script>
+			<script src="{{ SITEURL }}/assets/js/main.js"></script>
+			{% block scripts %}{% endblock %}
+
+	</body>
+</html>
