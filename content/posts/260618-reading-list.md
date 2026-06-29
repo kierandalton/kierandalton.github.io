@@ -8,4 +8,4 @@ Category: Reading Lists
 ### [‘He was in mystic delirium’: was this hermit mathematician a forgotten genius whose ideas could transform AI](https://www.theguardian.com/science/article/2024/aug/31/alexander-grothendieck-huawei-ai-artificial-intelligence)
   * Exploring the life of Alexander Grothendieck.
 ### [Is Lloyd’s of London the world’s oldest podshop?](https://www.ft.com/content/ae60efcc-863e-4e0c-8805-26457f8d299e)
-  * How Lloyd's of London works.
+  * How Lloyd's of London works: It's a bit like a hedge fund.
