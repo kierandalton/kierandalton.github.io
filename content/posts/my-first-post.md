@@ -4,6 +4,6 @@ Category: Website
 Slug: migrating-to-pelican
 Summary: Porting a personal portfolio website from Jekyll to Pelican using Python and uv.
 
-Welcome to my blog! I've successfully migrated this website from Ruby-based Jekyll to Python-based Pelican. 
+Welcome to my blog! I've migrated this website from Ruby-based Jekyll to Python-based Pelican. 
 
-This change makes it significantly easier to manage dependencies using modern Python tooling like `uv`, and allows writing posts in standard Markdown.
+This change makes it significantly easier to manage dependencies using `uv` (which I've fallen in love with), and allows writing posts in Markdown.
