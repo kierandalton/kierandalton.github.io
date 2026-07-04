@@ -12,4 +12,4 @@ Category: Reading Lists
 * A discussion on devolution and regional divides in the UK, particularly relevant for a Burnham era. 
 
 ### [Rent Control: The Ceiling Trap](https://mason.gmu.edu/~atabarro/RentControl/)
-* An essay on the history of rent control policies, from the direction you'd expect for Alex Tabarrok
+* An essay on the history of rent control policies, from the direction you'd expect for Alex Tabarrok.
