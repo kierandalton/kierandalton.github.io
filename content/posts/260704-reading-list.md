@@ -6,7 +6,7 @@ Category: Reading Lists
   * Papers are probably becoming less useful as roadmarks and tools for dissemination of knowledge, and the incentives don't help.
 
 ### [Moore's Law for Everything](https://moores.samaltman.com/)
-* There's been bad press on Sam ALtman recently, but I like this old post of his.
+* Sam Altman's had some bad press recently, but I like this old post of his.
 
 ### [Recovering from Thatcherism](https://tomforth.co.uk/recoveringfromthatcherism/)
 * A discussion on devolution and regional divides in the UK, particularly relevant for a Burnham era. 
