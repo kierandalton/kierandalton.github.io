@@ -1,7 +1,7 @@
 Title: Reading List Week 26
 Date: 2026-07-04 21:00
 Category: Reading Lists
-* 
+
 ### [‘Publish or Perish’ is now a card game](https://www.nature.com/articles/d41586-024-02511-5)
   * Papers are probably becoming less useful as roadmarks and tools for dissemination of knowledge, and the incentives don't help.
 
