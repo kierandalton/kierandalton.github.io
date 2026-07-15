@@ -1,5 +1,5 @@
 Title: Reading List Week 30
-Date: 2026-07-30 19:52
+Date: 2026-07-15 19:52
 Category: Reading Lists
 Status: draft
 

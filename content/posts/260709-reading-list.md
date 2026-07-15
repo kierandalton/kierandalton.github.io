@@ -9,5 +9,5 @@ Category: Reading Lists
   * Why the beleaguered California high-speed rail project might never work out.
 ### [What’s So Special About Uruguay](https://tomasmandl.substack.com/p/whats-so-special-about-uruguay)
   * Janan Ganesh once described Uruguay as the place Economist readers would identify as a successful country that other countries should aspire to emulate, why?
-  ### [REVIEW: Energy and Civilization, by Vaclav Smil](https://www.thepsmiths.com/p/review-energy-and-civilization-by)
+### [REVIEW: Energy and Civilization, by Vaclav Smil](https://www.thepsmiths.com/p/review-energy-and-civilization-by)
   * Lots of people (such as Bill Gates) like Vaclav Smil. This is a review of Vaclav Smil's history of how energy consumption has shaped human society.
