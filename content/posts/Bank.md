@@ -34,12 +34,6 @@
   * The 1730 cork-and-tube experiment that first separated conductors from insulators.
 ### [Tech home runs: the heat pipe](https://inventiontime.substack.com/p/tech-home-runs-the-heat-pipe)
   * A passive cooling trick, thousands of times better than solid copper, that quietly runs your electronics.
-### [The Boring Part of Bell Labs](https://elizabethvannostrand.substack.com/p/the-boring-part-of-bell-labs?ref=thebrowser.com)
-  * The famous lab was mostly kept alive by unglamorous applied engineering, not the Nobel-winning research.
-### [Energy Predictions 2025](https://caseyhandmer.wordpress.com/2025/12/08/energy-predictions-2025/)
-  * Handmer's case for solar-plus-batteries eating the grid — already a known-good author for you (he wrote the HS2 piece).
-### [My Left Kidney](https://www.astralcodexten.com/p/my-left-kidney)
-  * A first-person account of donating a kidney to a stranger, the effective-altruism reasoning behind it, and the bureaucracy that nearly stopped it.
 ### [Against The Concept Of Telescopic Altruism](https://www.astralcodexten.com/p/against-the-concept-of-telescopic)
   * Arguing the "people who care about strangers must be neglecting their neighbours" trope isn't actually true.
 ### [You Have Only X Years To Escape Permanent Moon Ownership](https://www.astralcodexten.com/p/you-have-only-x-years-to-escape-permanent)

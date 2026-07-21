@@ -1,8 +1,8 @@
-Title: Reading List Week 30
+Title: Reading List Week 28
 Date: 2026-07-15 19:52
 Category: Reading Lists
 
-### [Reasons of State: Why Didn’t Denmark Sell Greenland'](https://gwern.net/greenland)
+### [Reasons of State: Why Didn’t Denmark Sell Greenland](https://gwern.net/greenland)
   * A deep-dive into Denmark's 1946 refusal of a $100 million US offer for Greenland. Whether selling part of your country is wrong is a different matter.
 ### [How Google Maps quietly allocates survival across London’s restaurants - and how I built a dashboard to see through it](https://laurenleek.substack.com/p/how-google-maps-quietly-allocates)
   * Google Maps' ranking algorithm acts as a kind of invisible market maker, deciding which London restaurants get seen, and therefore which survive.
