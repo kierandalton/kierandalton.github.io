@@ -1,7 +1,6 @@
 Title: Reading List Week 37
 Date: 2026-09-20 08:00
 Category: Reading Lists
-Status: draft
 
 ### [Why Europe doesn't have a Tesla](https://worksinprogress.co/issue/why-europe-doesnt-have-a-tesla/)
   * Europe has the engineers and the money. So what's missing? Apparently regulation, labour law and a culture that punishes failure.

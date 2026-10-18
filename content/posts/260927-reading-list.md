@@ -1,7 +1,6 @@
 Title: Reading List Week 38
 Date: 2026-09-27 08:00
 Category: Reading Lists
-Status: draft
 
 ### [What will be scarce?](https://aleximas.substack.com/p/what-will-be-scarce)
   * When AI makes most things cheap, we'll spend on whatever still needs a human in the loop. Not so convinced.

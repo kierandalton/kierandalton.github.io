@@ -1,7 +1,6 @@
 Title: Reading List Week 41
 Date: 2026-10-18 08:00
 Category: Reading Lists
-Status: draft
 
 ### [Why aren't smart people happier?](https://www.experimental-history.com/p/why-arent-smart-people-happier)
   * IQ tests reward solving well-defined problems but life is not a well-defined problem.
